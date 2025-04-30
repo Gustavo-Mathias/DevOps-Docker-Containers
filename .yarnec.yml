@@ -1,0 +1,9 @@
+nodeLinker: node-modules
+
+plugins:
+  - path: .yarn/plugins/@yarbpkg/plugin-interactive-tools.cjs
+    spec: "@yarbpkg/plugin-interactive-tools"
+  - path: .yarn/plugins/@yarbpkg/plugin-workspace-tools.cjs
+    spec: "@yarbpkg/plugin-workspace-tools"
+
+yarnPath: .yarn/realeases/yarn-3.6.0.cjs
