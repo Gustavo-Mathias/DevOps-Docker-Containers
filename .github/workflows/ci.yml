@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    name: 'Build and Pushs'
+    name: 'Build and Push'
     runs-on: ubuntu-latest
     strategy:
       matrix:
